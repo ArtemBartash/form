@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Name  
+                </td>
+                <td>
+                    <input  type =  "text" placeholder = "Name" name = "#">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password 
+                </td>
+                <td>
+                    <input type = "Password" placeholder = "Password" name = "#">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    <input type = "radio" name = "Gender"> Male
+                    <input type = "radio" name = "Gender"> Female
+                </td>    
+            </tr>
+            <tr>
+                <td>
+                    Email
+                </td>
+                <td>
+                    <input type = "email" placeholder = "Email" name = "#">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone number
+                </td>
+                <td>
+                    <input type = "number" placeholder = "+ 375 (25)/(29) *******" name = "#">
+                </td>
+            </tr>
+        </table>
+            <p><strong>Choose security question</strong></p>
+            <p><i>To secure your account you need to choose security question.</i></p>
+            <label for = "question"> Question:</label>
+            <select name = "question" id = "question">
+                <option value="question-1">What is your favorite pet's name?</option>
+                <option value="question-2">What is your favorite food?</option>
+                <option value="question-3">What is your favorite movie?</option>
+                <option value="question-4">What is your favorite author's last name?</option>
+            </select>
+            <p>Answer the question </p>
+            <textarea name="text" placeholder="Answer"></textarea>
+            <table>
+            <tr>
+                <td>
+                    <p><input type = "Submit" value = "Submit" name = "#">
+                    <input type = "Reset" value = "Reset" name = "#"></p>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
